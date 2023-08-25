@@ -29,7 +29,3 @@ explain analyze
 ## A subquery is called a co-related query when its execution depends upon the statement(s) written after the bracket
 ## One needs to choose between writing a subquery or a co-related query depending on its performance
 ## Explain analyze clause before any query will privide query performance
-
-
-
-
