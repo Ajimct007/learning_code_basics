@@ -1,0 +1,104 @@
+customer,region,net_sales_mln,pct_share_region
+Amazon ,APAC,57.41,12.99
+Atliq Exclusive,APAC,51.58,11.67
+Atliq e Store,APAC,36.97,8.36
+Leader,APAC,24.52,5.55
+Sage,APAC,22.85,5.17
+Neptune,APAC,21.01,4.75
+Electricalsocity,APAC,16.25,3.68
+Propel,APAC,14.14,3.20
+Synthetic,APAC,14.14,3.20
+Flipkart,APAC,12.96,2.93
+Novus,APAC,12.91,2.92
+Expression,APAC,12.9,2.92
+Girias,APAC,11.3,2.56
+Vijay Sales,APAC,11.27,2.55
+Ebay,APAC,11.14,2.52
+Reliance Digital,APAC,11.1,2.51
+Electricalslytical,APAC,11.08,2.51
+Lotus,APAC,10.53,2.38
+Ezone,APAC,10.3,2.33
+Viveks,APAC,10.09,2.28
+Croma,APAC,9.88,2.24
+Zone,APAC,6.91,1.56
+Acclaimed Stores,APAC,5.79,1.31
+Taobao,APAC,4.31,0.98
+Digimarket,APAC,3.97,0.90
+Forward Stores,APAC,3.83,0.87
+Insight,APAC,3.61,0.82
+Sound,APAC,3.44,0.78
+Surface Stores,APAC,2.78,0.63
+Logic Stores,APAC,2.21,0.50
+Epic Stores,APAC,1.93,0.44
+Path,APAC,1.92,0.43
+Control,APAC,1.62,0.37
+Nomad Stores,APAC,1.55,0.35
+All-Out,APAC,1.06,0.24
+Electricalsbea Stores,APAC,0.95,0.21
+Flawless Stores,APAC,0.9,0.20
+Info Stores,APAC,0.89,0.20
+Atliq e Store,EU,19.83,9.87
+Amazon ,EU,19.77,9.84
+Atliq Exclusive,EU,13.39,6.67
+UniEuro,EU,9.63,4.80
+Expert,EU,8.38,4.17
+Chip 7,EU,7.23,3.60
+Radio Popular,EU,6.95,3.46
+Media Markt,EU,6.88,3.43
+Elkjøp,EU,6.76,3.37
+Sorefoz,EU,6.13,3.05
+Coolblue,EU,5.59,2.78
+Elite,EU,5.41,2.69
+Boulanger,EU,5.32,2.65
+Mbit,EU,5.18,2.58
+Euronics,EU,5.1,2.54
+Electricalsquipo Stores,EU,4.75,2.37
+Electricalslytical,EU,4.56,2.27
+Atlas Stores,EU,4.16,2.07
+Logic Stores,EU,4.1,2.04
+Chiptec,EU,3.93,1.96
+Fnac-Darty,EU,3.77,1.88
+Epic Stores,EU,3.53,1.76
+Electricalslance Stores,EU,3.07,1.53
+Argos (Sainsbury's),EU,2.97,1.48
+Power,EU,2.6,1.29
+Currys (Dixons Carphone),EU,2.43,1.21
+Electricalsara Stores,EU,2.42,1.21
+Sound,EU,2.25,1.12
+Synthetic,EU,1.96,0.98
+Flipkart,EU,1.94,0.97
+Integration Stores,EU,1.88,0.94
+Relief,EU,1.7,0.85
+Reliance Digital,EU,1.65,0.82
+Billa,EU,1.65,0.82
+Unity Stores,EU,1.6,0.80
+Otto,EU,1.57,0.78
+Saturn,EU,1.56,0.78
+Info Stores,EU,1.51,0.75
+Forward Stores,EU,1.48,0.74
+Flawless Stores,EU,1.47,0.73
+Notebillig,EU,1.47,0.73
+Digimarket,EU,1.44,0.72
+Premium Stores,EU,1.39,0.69
+Nova,EU,0.46,0.23
+Amazon ,LATAM,1.54,48.73
+Atliq e Store,LATAM,1.09,34.49
+Electricalsbea Stores,LATAM,0.53,16.77
+Amazon ,NA,30.31,17.03
+Atliq Exclusive,NA,14.95,8.40
+walmart,NA,12.63,7.10
+Atliq e Store,NA,12.42,6.98
+Costco,NA,12.19,6.85
+Staples,NA,11.49,6.46
+Flipkart,NA,10.35,5.82
+Path,NA,9.1,5.11
+Ebay,NA,8.74,4.91
+Acclaimed Stores,NA,8.53,4.79
+Control,NA,8.48,4.77
+BestBuy,NA,8.26,4.64
+Circuit City,NA,8.11,4.56
+Radio Shack,NA,7.12,4.00
+Sage,NA,4.22,2.37
+Nomad Stores,NA,3.73,2.10
+Premium Stores,NA,3.7,2.08
+Relief,NA,3.61,2.03
