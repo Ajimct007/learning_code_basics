@@ -4,11 +4,14 @@ import numpy as np
 from io import BytesIO
 from PIL import Image
 import tensorflow as tf
+import requests
 
 app = FastAPI()
 
+endpoint = "http://localhost:8504/v1/models/potatoes_model:predict"
+
 # Declaring the MODEL as global variable
-MODEL = tf.keras.models.load_model("../saved_models/1")
+# MODEL = tf.keras.models.load_model("../saved_models/1")
 
 # Declare the class names
 CLASS_NAMES = ["Early Blight", "Late Blight", "Healthy"]
@@ -40,19 +43,24 @@ async def predict(
 	# we have to send the batch image we can use numpy's expand_dims
 	img_batch = np.expand_dims(image, 0)
 
-	predictions = MODEL.predict(img_batch)
-
-	# Since we have the batch here, we have to select the 1st image from the batch, so that we can take only one image
-	predicted_class = CLASS_NAMES[np.argmax(predictions[0])]
-
-	# for confidence we have to use np.max
-	confidence = np.max(predictions[0])
-
-	# we can return them as a simple dictionary
-	return {
-			'class':predicted_class,
-			'confidence':float(confidence)
+	json_data = {
+		"instances": img_batch.tolist()
 	}
+
+	response = requests.post(endpoint, json=json_data)
+
+	print('____', response, '______________________________')
+
+	prediction = response.json()["predictions"][0]
+
+	predicted_class = CLASS_NAMES[np.argmax(prediction)]
+	confidence = np.max(prediction)
+
+	return {
+		"class" : predicted_class,
+		"confidence" : confidence
+	}
+
 
 if __name__ == '__main__':
 	uvicorn.run(app, host='localhost', port=8000)
